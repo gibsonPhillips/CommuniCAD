@@ -1,0 +1,96 @@
+div.threedee {
+  width: 100vw;
+  height: 100vh;
+  background-color: #585758;
+  background-image: './websiteSceenshot.png';
+}
+
+h1 {
+  /* margin: 10px 50px 20px; */
+  margin: 0px 0px 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  text-align: center;
+}
+
+.blue-with-text {
+  background-color: #97d9e1;
+  /* margin: 20px, 5px, 10, 5; */
+}
+
+.navbar {
+  display: flex;
+  background-color: #585758;
+}
+
+.logo {
+  justify-content: left;
+  color: #fff;
+  background-color: transparent;
+}
+
+.navTo {
+  padding: 1em 2em 1em 0em;
+  justify-items: right;
+  color: white;
+}
+
+.fb {
+  flex-grow: 1;
+}
+
+.mail {
+  background-color: white;
+  justify-content: center;
+  display: flex;
+}
+
+.footer {
+  background-color: #97d9e1;
+  display: flex;
+}
+
+.fLogo {
+  scale: .5;
+  padding: 10px, 0px, 20px, 10px;
+}
+
+.our-services {
+  padding: 3em;
+}
+
+.big-three {
+  padding: 2em;
+  padding-bottom: 28em;
+  display: flex;
+  justify-items: center;
+}
+
+.transparency {
+  width: 15vw;
+  height: 15vh;
+}
+
+.mag-glass {
+  background-color: transparent;
+}
+
+.list {
+  font-size: 1em;
+}
+
+.communication {
+  width: 15vw;
+  height: 15vh;
+}
+
+.plugins {
+  width: 15vw;
+  height: 15vh;
+}
