@@ -63,11 +63,13 @@ h3 {
 
 .our-services {
   padding: 3em;
+  padding-bottom: 0px;
 }
 
 .big-three {
   padding: 10%;
   padding-bottom: 0%;
+  padding-top: 0;
   display: flex;
   /* justify-content: center; */
   /* justify-items: center; */
