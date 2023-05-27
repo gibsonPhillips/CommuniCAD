@@ -71,17 +71,15 @@ export default function App() {
         <div class="big-three">
           <div class="transparency">
             <div class="canvas-size">
-              <a href='https://dryicons.com/free-graphics/3d-font?page=2'>
-                <Canvas class="mag-glass">
-                  <ambientLight intensity={0.5} />
-                  <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                  <pointLight position={[-10, -10, -10]} />
+              <Canvas class="mag-glass">
+                <ambientLight intensity={0.5} />
+                <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                <pointLight position={[-10, -10, -10]} />
 
-                  <MagGlass />
-                  <CameraRotation />
-                  {/* <OrbitControls /> */}
-                </Canvas>
-              </a>
+                <MagGlass />
+                <CameraRotation />
+                {/* <OrbitControls /> */}
+              </Canvas>
             </div>
 
             <h2>
@@ -120,17 +118,15 @@ export default function App() {
 
           <div class="plugins">
             <div class="canvas-size">
-              <a href='https://dryicons.com/free-graphics/3d-font?page=2'>
-                <Canvas class="mag-glass">
-                  <ambientLight intensity={0.5} />
-                  <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                  <pointLight position={[-10, -10, -10]} />
+              <Canvas class="mag-glass">
+                <ambientLight intensity={0.5} />
+                <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                <pointLight position={[-10, -10, -10]} />
 
-                  <Shape2 />
-                  <CameraRotation />
-                  {/* <OrbitControls /> */}
-                </Canvas>
-              </a>
+                <Shape2 />
+                <CameraRotation />
+                {/* <OrbitControls /> */}
+              </Canvas>
             </div>
 
             <h2>

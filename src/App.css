@@ -67,6 +67,7 @@ h3 {
 
 .big-three {
   padding: 10%;
+  padding-bottom: 0%;
   display: flex;
   /* justify-content: center; */
   /* justify-items: center; */
@@ -87,4 +88,19 @@ h3 {
 .canvas-size {
   width: 15vw;
   height: 15vh;
+}
+
+.transparency {
+  flex: 1;
+  margin: 30px;
+}
+
+.plugins {
+  flex: 1;
+  margin: 30px;
+}
+
+.communication {
+  flex: 1;
+  margin: 30px;
 }
