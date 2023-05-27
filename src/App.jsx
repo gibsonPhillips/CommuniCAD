@@ -4,8 +4,11 @@ import { Canvas } from '@react-three/fiber'
 import Box from './Box'
 import ImageBox from './ImageBox'
 import MagGlass from './MagGlass'
+import Shape1 from './shape1'
 import { OrbitControls, Text } from '@react-three/drei'
 import CameraRotation from './CameraRotation'
+import Shape2 from './Shape2'
+
 
 export default function App() {
 
@@ -67,62 +70,80 @@ export default function App() {
 
         <div class="big-three">
           <div class="transparency">
-            <Canvas class="mag-glass">
-              <ambientLight intensity={0.5} />
-              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-              <pointLight position={[-10, -10, -10]} />
+            <div class="canvas-size">
+              <a href='https://dryicons.com/free-graphics/3d-font?page=2'>
+                <Canvas class="mag-glass">
+                  <ambientLight intensity={0.5} />
+                  <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                  <pointLight position={[-10, -10, -10]} />
 
-              <MagGlass />
-              <CameraRotation />
-              <OrbitControls />
-            </Canvas>
+                  <MagGlass />
+                  <CameraRotation />
+                  {/* <OrbitControls /> */}
+                </Canvas>
+              </a>
+            </div>
+
             <h2>
               Simple Transparency
             </h2>
+
             <ul class="list">
               <li>A dashboard to manage incoming and outgoing communications easily</li>
               <li class="list-item">Monitor all progress</li>
             </ul>
           </div>
-          <div class="communication">
-            <Canvas class="mag-glass">
-              <ambientLight intensity={0.5} />
-              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-              <pointLight position={[-10, -10, -10]} />
 
-              <MagGlass />
-              <CameraRotation />
-              <OrbitControls />
-            </Canvas>
+          <div class="communication">
+            <div class="canvas-size">
+              <Canvas class="mag-glass">
+                <ambientLight intensity={0.5} />
+                <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                <pointLight position={[-10, -10, -10]} />
+
+                <Shape1 />
+                <CameraRotation />
+                {/* <OrbitControls /> */}
+              </Canvas>
+            </div>
+
             <h2>
               Centralized Communication
             </h2>
+
             <ul class="list">
               <li>2-way synchronous 3D design viewer and communicator</li>
               <li>File type agnostic commenting and sharing capabilities</li>
               <li>Multi-file type upload and sharing</li>
-              <li>Secure link generation and file security protocols</li>
             </ul>
           </div>
-          <div class="plugins">
-            <Canvas class="mag-glass">
-              <ambientLight intensity={0.5} />
-              <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-              <pointLight position={[-10, -10, -10]} />
 
-              <MagGlass />
-              <CameraRotation />
-              <OrbitControls />
-            </Canvas>
+          <div class="plugins">
+            <div class="canvas-size">
+              <a href='https://dryicons.com/free-graphics/3d-font?page=2'>
+                <Canvas class="mag-glass">
+                  <ambientLight intensity={0.5} />
+                  <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                  <pointLight position={[-10, -10, -10]} />
+
+                  <Shape2 />
+                  <CameraRotation />
+                  {/* <OrbitControls /> */}
+                </Canvas>
+              </a>
+            </div>
+
             <h2>
               ERP/CAD Plugins
             </h2>
+
             <ul class="list">
               <li>No staff training necessary</li>
               <li>Integrate directly into you existing ERP software</li>
               <li>Connect communiCAD directly into you CAD software</li>
             </ul>
           </div>
+
         </div>
 
       </div>

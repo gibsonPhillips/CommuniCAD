@@ -66,16 +66,14 @@ h3 {
 }
 
 .big-three {
-  padding: 2em;
-  padding-bottom: 28em;
+  padding: 10%;
   display: flex;
-  justify-items: center;
+  /* justify-content: center; */
+  /* justify-items: center; */
+  /* max-width: 800px; */
 }
 
-.transparency {
-  width: 15vw;
-  height: 15vh;
-}
+
 
 .mag-glass {
   background-color: transparent;
@@ -85,12 +83,8 @@ h3 {
   font-size: 1em;
 }
 
-.communication {
-  width: 15vw;
-  height: 15vh;
-}
 
-.plugins {
+.canvas-size {
   width: 15vw;
   height: 15vh;
 }

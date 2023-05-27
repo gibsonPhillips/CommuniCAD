@@ -11,8 +11,8 @@ export default function ImageBox(props) {
 
     useFrame((state) => {
         const time = state.clock.getElapsedTime();
-        mesh.current.position.y += Math.sin(time * 2) / 100;
-        mesh.current.rotation.y = mesh.current.rotation.x += 0.01;
+        mesh.current.position.y += Math.sin(time * 2) / -100;
+        mesh.current.rotation.y = mesh.current.rotation.x -= 0.01;
     })
 
     const base = new THREE.TextureLoader().load(webPicture);
